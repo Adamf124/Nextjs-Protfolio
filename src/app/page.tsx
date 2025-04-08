@@ -1,8 +1,5 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import { Mail, GithubIcon } from "lucide-react";
-
-const inter = Inter({ subsets: ["latin"] });
 
 const projects = [
   {
@@ -41,7 +38,7 @@ export default function Home() {
           <h2 className="text-xl mb-6">
             Frontend Developer • React • Next.js • Tailwind
           </h2>
-          <p className="mb-6 max-w-xl mx-auto ${inter.className}">
+          <p className=" mb-6 max-w-xl mx-auto ">
             I build fast, responsive, and useful interfaces that don’t make
             users want to punch their screens.
           </p>
