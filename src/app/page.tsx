@@ -3,22 +3,22 @@ import { Mail, GithubIcon } from "lucide-react";
 
 const projects = [
   {
-    title: "Tax-Refund Tracker",
+    title: "LOCKR",
     description:
-      "A CRUD web app to track tax refund entries with persistent storage and basic auth.",
-    repo: "https://github.com/yourhandle/tax-refund-tracker",
+      "A CRUD app for saving links, notes, and resources—your personal digital vault.",
+    repo: "https://github.com/Adamf124/LOCKR",
   },
   {
-    title: "Real-time Chat Widget",
+    title: "ECHOCHAT",
     description:
       "A lightweight chat widget using Socket.io with live message syncing.",
-    repo: "https://github.com/yourhandle/realtime-chat-widget",
+    repo: "https://github.com/Adamf124/ECHOCHAT",
   },
   {
-    title: "Stocks Dashboard",
+    title: "FINSYNC",
     description:
-      "Minimalist dashboard fetching real-time data from a free market API (e.g., Finnhub).",
-    repo: "https://github.com/yourhandle/stocks-dashboard",
+      "Simplified invoicing and payment tracking, built to help freelancers and entrepreneurs get paid without the headache.",
+    repo: "https://github.com/Adamf124/FINSYNC",
   },
 ];
 
@@ -85,7 +85,7 @@ export default function Home() {
               <Mail className="inline-block w-6 h-6" />
             </a>
             <a
-              href="https://github.com/yourhandle"
+              href="https://github.com/Adamf124"
               target="_blank"
               className="hover:text-blue-600"
             >
