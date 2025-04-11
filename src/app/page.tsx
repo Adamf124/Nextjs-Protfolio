@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Mail, GithubIcon } from "lucide-react";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const projects = [
   {
@@ -26,6 +27,7 @@ const projects = [
 export default function Home() {
   return (
     <>
+      <SpeedInsights />
       <Analytics />
       <Head>
         <title>Adam Ferguson | Web Developer</title>
