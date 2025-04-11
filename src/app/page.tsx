@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Mail, GithubIcon } from "lucide-react";
+import { Analytics } from "@vercel/analytics/react";
 
 const projects = [
   {
@@ -25,6 +26,7 @@ const projects = [
 export default function Home() {
   return (
     <>
+      <Analytics />
       <Head>
         <title>Adam Ferguson | Web Developer</title>
         <meta
