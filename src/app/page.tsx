@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Mail, GithubIcon, Linkedin, LinkedinIcon } from "lucide-react";
+import { Mail, GithubIcon, Linkedin } from "lucide-react";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
