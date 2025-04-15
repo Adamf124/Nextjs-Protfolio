@@ -5,10 +5,10 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const projects = [
   {
-    title: "LOCKR",
+    title: "FINSYNC",
     description:
-      "A CRUD app for saving links, notes, and resources—your personal digital vault.",
-    repo: "https://github.com/Adamf124/LOCKR",
+      "Simplified invoicing and payment tracking, built to help freelancers and entrepreneurs get paid without the headache.",
+    repo: "https://github.com/Adamf124/FINSYNC",
   },
   {
     title: "ECHOCHAT",
@@ -17,10 +17,10 @@ const projects = [
     repo: "https://github.com/Adamf124/ECHOCHAT",
   },
   {
-    title: "FINSYNC",
+    title: "LOCKR",
     description:
-      "Simplified invoicing and payment tracking, built to help freelancers and entrepreneurs get paid without the headache.",
-    repo: "https://github.com/Adamf124/FINSYNC",
+      "A CRUD app for saving links, notes, and resources—your personal digital vault.",
+    repo: "https://github.com/Adamf124/LOCKR",
   },
 ];
 
