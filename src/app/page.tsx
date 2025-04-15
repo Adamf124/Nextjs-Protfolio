@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Mail, GithubIcon } from "lucide-react";
+import { Mail, GithubIcon, Linkedin, LinkedinIcon } from "lucide-react";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -94,6 +94,13 @@ export default function Home() {
               className="hover:text-blue-600"
             >
               <GithubIcon className="inline-block w-6 h-6" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/adamferguson124/"
+              target="_blank"
+              className="hover:text-blue-600"
+            >
+              <Linkedin className="inline-block w-6 h-6" />
             </a>
           </div>
         </section>
