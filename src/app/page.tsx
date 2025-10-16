@@ -37,6 +37,7 @@ export default function Home() {
         />
       </Head>
       <main className="min-h-screen bg-white text-gray-800 font-sans">
+        {/* Main Hero */}
         <section className="py-24 px-6 text-center bg-gray-100">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Adam Ferguson</h1>
           <h2 className="text-xl mb-6">
@@ -54,6 +55,7 @@ export default function Home() {
           </a>
         </section>
 
+        {/* Featured Projects */}
         <section className="py-16 px-6 max-w-4xl mx-auto" id="projects">
           <h3 className="text-3xl font-semibold mb-12 text-center">
             Featured Projects
@@ -78,6 +80,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Contact Icons */}
         <section className="py-16 px-6 bg-gray-100 text-center" id="contact">
           <h3 className="text-2xl font-semibold mb-6">Let’s Connect</h3>
           <p className="mb-4">Have a project or question? Drop a line.</p>
